@@ -1,0 +1,393 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+	font-family: "Work Sans", sans-serif;
+}
+
+p {
+	font-size: 16px;
+	font-family: "Work Sans", sans-serif;
+	color: #6a6b7c;
+	font-weight: 400;
+	line-height: 28px;
+	margin: 0 0 15px 0;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 51px;
+}
+
+.section-title h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #171822;
+	margin-bottom: 10px;
+}
+
+.section-title p {
+	font-size: 18px;
+	color: #6a6b7c;
+	margin-bottom: 0;
+}
+
+/*header*/
+
+.header-section {
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+    background-color: #45464e;
+    font-weight: bold;
+	height: 100px;
+}
+
+.logo {
+	float: left;
+	padding-top: 33px;
+	padding-bottom: 37px;
+    margin-left: 80px;
+}
+
+.topnav {
+    margin-left: 280px;
+	display: inline-block;
+}
+
+.topnav a {
+	margin-right: 40px;
+	font-size: 18px;
+	color: #171822;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 36px 0;
+	position: relative;
+	display: inline-block;
+}
+
+.topnav .active:before {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	height: 2px;
+	width: 100%;
+	background: #f44949;
+	content: "";
+}
+
+.menu .tickets-button {
+	display: inline-block;
+}
+.topnav .tickets-button,
+.top-section .tickets-button {
+	display: inline-block;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 12px 40px;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 50px;
+	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
+	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+}
+
+/*top section*/
+
+.top-section {
+	padding-top: 55px;
+    background-image: url('img/audience.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+    padding: 0 50px 0 50px;
+    height: 715px;
+}
+
+.top-man {
+    float: right;
+}
+
+.top-text {
+    float: left;
+}
+
+.top-section .top-text {
+	padding-top: 180px;
+}
+
+.top-section .top-text span {
+	font-size: 16px;
+	color: #f44949;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.top-section .top-text h2 {
+	font-size: 60px;
+	color: white;
+	line-height: 72px;
+	font-weight: 600;
+	margin-top: 24px;
+	margin-bottom: 35px;
+}
+
+/*time section*/
+
+.time-section {
+    padding: 40px 80px 40px 80px;
+    height: 150px;
+    background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
+	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+}
+
+.time-text {
+    float: left;
+}
+
+.timer {
+    float: right;
+}
+
+.time-section .time-text span {
+	font-size: 20px;
+	color: white;
+}
+
+.time-section .time-text h3 {
+	color: white;
+	font-weight: 700;
+	font-size: 45px;
+	margin-top: 15px;
+}
+
+.time-section .timer {
+	text-align: right;
+}
+
+.time-section .timer .timer-item {
+	display: inline-block;
+	text-align: center;
+	margin-left: 35px;
+	height: 95px;
+	width: 120px;
+	padding-top: 33px;
+	position: relative;
+}
+
+.time-section .timer .timer-item:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: 3px solid white;
+	content: "";
+	opacity: 0.1;
+	border-radius: 4px;
+}
+
+.time-section .timer .timer-item span {
+	font-size: 60px;
+	color: white;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.time-section .timer .timer-item p {
+	font-size: 18px;
+	color: white;
+	margin-bottom: 0;
+	line-height: 30px;
+}
+
+/*about section*/
+
+.about-section {
+	margin: 90px;
+	padding-bottom: 100px;
+}
+
+.about-picture {
+	float: left;
+	margin-right: 90px;
+}
+
+.about-picture img {
+	min-width: 100%;
+	border-radius: 4px;
+}
+
+.about-info {
+	padding-top: 74px;
+}
+
+.about-info h2 {
+	color: #171822;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+
+.about-info p {
+	margin-bottom: 21px;
+}
+
+.about-info ul {
+	margin-bottom: 30px;
+}
+
+.about-info ul li {
+	list-style: none;
+	font-size: 16px;
+	line-height: 30px;
+	color: #6a6b7c;
+}
+
+.about-info ul li span {
+	color: #f44949;
+}
+
+.about-info .about-btn {
+	font-size: 16px;
+	color: #171822;
+	font-weight: 600;
+	position: relative;
+	text-decoration: none;
+}
+
+.about-info .about-btn:before {
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	height: 2px;
+	width: 100%;
+	background: #f44949;
+	content: "";
+}
+
+/*speakers section*/
+
+.speakers-section {
+	overflow: hidden;
+}
+
+.speakers-photos {
+	text-align: center;
+}
+
+.speakers-photos img{
+	width: 20%;
+	float: left;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+
+/*schedule section*/
+
+.schedule-section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.schedule-section h5 {
+	font-weight: 600;
+	font-size: 23px;
+}
+
+.schedule-section .active p, 
+.schedule-section .active h5 {
+	color: white;
+}
+
+.tab {
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+}
+
+.tab button {
+	width: 20%;
+	padding-top: 12px;
+	margin-right: -5.5px;
+	background-color: white;
+	border: 1px solid #e7e7e8;
+}
+
+.tab .active {
+	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
+	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+}
+
+.schedule-info {
+	margin: 50px auto 50px auto;
+    width: 80%;
+}
+
+.sc-content {
+	margin-top: 30px;
+	border: 1px solid #e7e7e8;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+}
+
+.sc-pic img {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	margin-right: 100px;
+	margin-left: 70px;
+}
+
+.sc-text {
+	margin-top: 30px;
+	margin-right: 120px;
+	font-size: 16px;
+	color: #6a6b7c;
+	width: 35%;
+}
+
+.sc-text h4 {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.sc-text i,
+.sc-widget li i {
+	color: #f44949;
+}
+
+.sc-widget {
+	margin-top: 30px;
+}
+
+.sc-widget li {
+	font-size: 16px;
+	color: #6a6b7c;
+	line-height: 32px;
+	list-style: none;
+}
