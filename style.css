@@ -391,3 +391,227 @@ p {
 	line-height: 32px;
 	list-style: none;
 }
+
+
+/* responsive media styles */
+
+@media only screen and (min-width: 1200px) {
+	.topnav {
+		margin-left: 50px;
+	}
+	.time-section .time-text h3 {
+		font-size: 40px;
+	}
+	.speakers-section .speakers-photos img {
+		height: 260px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.header-section {
+		height: 150px;
+	}
+	.logo {
+		margin-top: 30px;
+	}
+	.topnav {
+		margin-left: 200px;
+		margin-right: 30px;
+	}
+	.topnav a {
+		padding-bottom: 5px;
+	}
+	.topnav .active:before {
+		bottom: 1px;
+	}
+	.top-man {
+		margin-top: -445px;
+	}
+	.time-section .time-text h3 {
+		margin-top: 50px;
+		font-size: 20px;
+	}
+	.about-section {
+		height: 430px;
+	}
+	.about-picture img {
+		height: 480px;
+	}
+	.about-picture {
+		margin-right: 50px;
+	}
+	.about-info h2{
+		margin-top: -90px;
+	}
+	.speakers-section .speakers-photos img {
+		height: 230px;
+	}
+	.sc-pic  {
+		margin-left: -50px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo {
+		margin-top: 30px;
+		margin-left: 50px;
+	}
+	.topnav {
+		margin-top: 0px;
+		margin-left: 70px;
+		margin-right: 0px;
+	}
+	.top-section {
+		height: 500px;
+	}
+	.top-man img {
+		height: 500px;
+		margin-top: 80px;
+	}
+	.top-section .top-text {
+		margin-top: -80px;
+	}
+	.top-section .top-text h2 {
+		font-size: 40px;
+	}
+	.time-section .timer .timer-item {
+		height: 80px;
+		width: 90px;
+		padding: auto;
+	}
+	.time-section .time-text {
+		margin-left: -55px;
+	}
+	.time-section .time-text h3 {
+		font-size: 22px;
+	}
+	.about-section {
+		height: 430px;
+	}
+	.about-picture img {
+		height: 250px;
+	}
+	.about-picture {
+		margin-right: 50px;
+	}
+	.about-info h2{
+		margin-top: -80px;
+	}
+	.speakers-section .speakers-photos img {
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.header-section {
+		height: 200px;
+	}
+	.logo {
+		margin-left: 10px;
+	}
+	.logo img {
+		height: 20px;
+	}
+	.topnav {
+		margin-left: 50px;
+		margin-right: -20px;
+	}
+	.topnav a {
+		padding-bottom: 5px;
+		font-size: 15px;
+	}
+	.topnav a:nth-child(3) {
+		margin-left: -145px;
+	}
+	.topnav a:nth-child(6) {
+		margin-left: -145px;
+	}
+	.topnav .active:before {
+		bottom: 1px;
+	}
+	.topnav .tickets-button {
+		height: 15px;
+		width: 65px;
+		font-size: 12px;
+	}
+	.top-text .tickets-button {
+		margin-left: -30px;
+		height: 15px;
+		width: 52px;
+		font-size: 10px;
+	}
+	.top-section {
+		height: 500px;
+	}
+	.top-man {
+		margin-top: -104px;
+		margin-right: -30px;
+	}
+	.top-man img {
+		height: 200px;	
+	}
+	.top-section .top-text {
+		margin-left: 15px;
+		margin-top: -150px;
+	}
+	.top-section .top-text h2 {
+		font-size: 22px;
+	}
+	.top-section .top-text span {
+		font-size: 15px;
+	}
+	.time-section .time-text h3 {
+		margin-top: 10px;
+		margin-left: -60px;
+		font-size: 20px;
+	}
+	.time-section .time-text span {
+		margin-left: -60px;
+	}
+	.time-section .timer {
+		margin-left: -120px;
+		margin-right: -50px;
+		margin-top: 20px;
+	}
+	.time-section .timer .timer-item {
+		margin-left: 5px;
+		height: 50px;
+		width: 55px;
+		padding-top: 5px;
+	}
+	.time-section .timer .timer-item span {
+		font-size: 20px;
+	}
+	.time-section .timer .timer-item p {
+		font-size: 15px;
+	}
+	.about-section {
+		height: 950px;
+	}
+	.about-picture img {
+		height: 250px;
+		margin-left: -40px;
+		margin-top: -50px;
+	}
+	.about-info {
+		margin-left: -50px;
+		margin-right: -50px;
+	}
+	.speakers-section .speakers-photos img {
+		height: 90px;
+	}
+	.sc-pic  {
+		margin-left: -40px;
+	}
+	.sc-text {
+		margin-top: 150px;
+		width: 200px;
+		margin-left: -250px;
+		margin-right: -100px;
+	}
+	.sc-widget {
+		margin-top: 270px;
+		margin-left: -100px;
+		margin-right: -50px;
+	}
+}
